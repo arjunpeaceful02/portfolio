@@ -426,3 +426,12 @@ box-shadow: inset 0 0 5px grey;
 		max-width: 20px;
 	}
 }
+
+.coming-wrapper {
+	background-image: url("../images/coming-soon.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+}
