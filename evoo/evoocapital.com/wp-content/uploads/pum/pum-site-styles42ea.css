@@ -11,7 +11,7 @@
 .pum-theme-315 .pum-container, .pum-theme-lightbox .pum-container { padding: 40px; border-radius: 3px; border: 8px none #000000; box-shadow: 0px 0px 30px 0px rgba( 0, 32, 32, 0.10 ); background-color: rgba( 255, 255, 255, 1.00 ) } 
 .pum-theme-315 .pum-title, .pum-theme-lightbox .pum-title { color: #ffffff; text-align: center; text-shadow: 0px 0px 0px rgba( 2, 2, 2, 0.00 ); font-family: inherit; font-weight: 600; font-size: 24px; line-height: 29px } 
 .pum-theme-315 .pum-content, .pum-theme-lightbox .pum-content { color: #ffffff; font-family: inherit; font-weight: 300 } 
-.pum-theme-315 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 40px; width: 100px; left: 50%; right: auto; bottom: 17px; top: auto; padding: 0px; color: #09068b; font-family: inherit; font-weight: 700; font-size: 13px; line-height: 18px; border: 2px none #ffffff; border-radius: 1px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ); transform: translateX(-50%) } 
+.pum-theme-315 .pum-content + .pum-close, .pum-theme-lightbox .pum-content + .pum-close { position: absolute; height: 40px; width: 100px; left: 50%; right: auto; bottom: 17px; top: auto; padding: 0px; color: #F9BC20; font-family: inherit; font-weight: 700; font-size: 13px; line-height: 18px; border: 2px none #ffffff; border-radius: 1px; box-shadow: 0px 0px 0px 0px rgba( 2, 2, 2, 0.00 ); text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.00 ); background-color: rgba( 255, 255, 255, 1.00 ); transform: translateX(-50%) } 
 
 
 
