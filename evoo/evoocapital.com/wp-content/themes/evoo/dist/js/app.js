@@ -1299,7 +1299,7 @@ var Home = function() {
         cache.bg_blue.classList.add('animated');
         anime({
           targets: cache.bg_blue,
-          backgroundColor: ['#F8FAFB','#080828'],
+          backgroundColor: ['#F8FAFB','#000'],
           duration: 1500,
           easing: 'easeOutExpo',
         });
@@ -1315,7 +1315,7 @@ var Home = function() {
       // cache.bg_blue.classList.remove('animated');
       // anime({
       //   targets: document.querySelector('body'),
-      //   backgroundColor: ['#080828','#F8FAFB'],
+      //   backgroundColor: ['#000','#F8FAFB'],
       //   duration: 1500,
       //   easing: 'easeOutExpo',
       // });
@@ -1330,7 +1330,7 @@ var Home = function() {
       // cache.bg_blue.classList.remove('animated');
       // anime({
       //   targets: document.querySelector('body'),
-      //   backgroundColor: ['#080828','#F8FAFB'],
+      //   backgroundColor: ['#000','#F8FAFB'],
       //   duration: 1500,
       //   easing: 'easeOutExpo',
       // });
@@ -1886,7 +1886,7 @@ var Investments = function() {
         cache.bg_blue.classList.add('animated');
         anime({
           targets: cache.bg_blue,
-          backgroundColor: ['#F8FAFB','#080828'],
+          backgroundColor: ['#F8FAFB','#000'],
           duration: 1500,
           easing: 'easeOutExpo',
         });
@@ -1902,7 +1902,7 @@ var Investments = function() {
       // cache.bg_blue.classList.add('animated');
       // anime({
       //   targets: cache.bg_blue,
-      //   backgroundColor: ['#080828','#F8FAFB'],
+      //   backgroundColor: ['#000','#F8FAFB'],
       //   duration: 1500,
       //   easing: 'easeOutExpo',
       // });
@@ -1917,7 +1917,7 @@ var Investments = function() {
       // cache.bg_blue.classList.remove('animated');
       // anime({
       //   targets: cache.bg_blue,
-      //   backgroundColor: ['#080828','#F8FAFB'],
+      //   backgroundColor: ['#000','#F8FAFB'],
       //   duration: 1500,
       //   easing: 'easeOutExpo',
       // });
@@ -2611,7 +2611,7 @@ var Strategy = function() {
 
   var colorArray = [
     '#4ea0da',
-    '#09068B',
+    '#F9BC20',
     '#C0DDF2',
     '#0497EA',
     '#4BD8A5',
@@ -3027,7 +3027,7 @@ var Strategy = function() {
         cache.bg_blue.classList.add('animated');
         anime({
           targets: cache.bg_blue,
-          backgroundColor: ['#F8FAFB','#080828'],
+          backgroundColor: ['#F8FAFB','#000'],
           duration: 1500,
           easing: 'easeOutExpo',
         });
@@ -3043,7 +3043,7 @@ var Strategy = function() {
       // cache.bg_blue.classList.remove('animated');
       // anime({
       //   targets: document.querySelector('body'),
-      //   backgroundColor: ['#080828','#F8FAFB'],
+      //   backgroundColor: ['#000','#F8FAFB'],
       //   duration: 1500,
       //   easing: 'easeOutExpo',
       // });
@@ -3058,7 +3058,7 @@ var Strategy = function() {
       // cache.bg_blue.classList.remove('animated');
       // anime({
       //   targets: document.querySelector('body'),
-      //   backgroundColor: ['#080828','#F8FAFB'],
+      //   backgroundColor: ['#000','#F8FAFB'],
       //   duration: 1500,
       //   easing: 'easeOutExpo',
       // });

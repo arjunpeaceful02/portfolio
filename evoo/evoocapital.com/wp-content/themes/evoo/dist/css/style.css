@@ -628,7 +628,7 @@ header {
       transition: transform 0.4s, -webkit-transform 0.4s;
       height: 3px;
       display: block;
-      background-color: #080828;
+      background-color: #000;
       -webkit-transform: skewY(35deg) rotate(-35deg);
           -ms-transform: skewY(35deg) rotate(-35deg);
               transform: skewY(35deg) rotate(-35deg);
@@ -636,12 +636,12 @@ header {
       -o-transition: all 0.4s;
       transition: all 0.4s; }
     header .burger:hover div {
-      background-color: #09068B; }
+      background-color: #F9BC20; }
   header .nav_bar {
     background-color: #F8FAFB;
     width: 120px;
     height: 100vh;
-    border-right: 1px solid #080828;
+    border-right: 1px solid #000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -672,7 +672,7 @@ header {
       letter-spacing: 0.05em;
       text-transform: uppercase;
       width: 75px;
-      color: #080828;
+      color: #000;
       -webkit-transform: rotate(-90deg) translateX(20px);
           -ms-transform: rotate(-90deg) translateX(20px);
               transform: rotate(-90deg) translateX(20px);
@@ -693,14 +693,14 @@ header {
     /* -- @include break(mobile)-- */ }
     @media only screen and (max-width: 991px) {
       header nav {
-        background-color: #080828;
+        background-color: #000;
         height: 100vh;
         padding-top: 75px;
         overflow-x: hidden;
         overflow-y: scroll; } }
     header nav .main_nav {
       width: calc(67% - 120px);
-      background-color: #080828;
+      background-color: #000;
       position: absolute;
       left: 120px;
       padding-left: 120px;
@@ -791,10 +791,10 @@ header {
         -webkit-transition: background-position 0.6s ease-in-out;
         -o-transition: background-position 0.6s ease-in-out;
         transition: background-position 0.6s ease-in-out;
-        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffffff), color-stop(50%, #080828));
-        background-image: -webkit-linear-gradient(bottom, #ffffff 50%, #080828 50%);
-        background-image: -o-linear-gradient(bottom, #ffffff 50%, #080828 50%);
-        background-image: linear-gradient(to top, #ffffff 50%, #080828 50%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffffff), color-stop(50%, #000));
+        background-image: -webkit-linear-gradient(bottom, #ffffff 50%, #000 50%);
+        background-image: -o-linear-gradient(bottom, #ffffff 50%, #000 50%);
+        background-image: linear-gradient(to top, #ffffff 50%, #000 50%);
         /* -- @include break(mobile)-- */
         /* -- @include break(mobile)-- */
         /* -- @include break(mobile)-- */ }
@@ -851,7 +851,7 @@ header {
             -ms-flex-align: center;
                 align-items: center;
         letter-spacing: 0.05em;
-        color: #080828;
+        color: #000;
         -webkit-transform: translateX(-80%);
             -ms-transform: translateX(-80%);
                 transform: translateX(-80%); }
@@ -859,7 +859,7 @@ header {
           display: block;
           height: 1px;
           width: 18px;
-          background-color: #080828;
+          background-color: #000;
           margin-right: 10px; }
       header nav .sec_nav a {
         display: -webkit-box;
@@ -875,7 +875,7 @@ header {
         font-style: normal;
         font-size: 22px;
         line-height: 30px;
-        color: #080828;
+        color: #000;
         text-decoration: none;
         -webkit-background-clip: text,padding-box;
         background-clip: text,padding-box;
@@ -890,7 +890,7 @@ header {
           header nav .sec_nav a {
             -webkit-background-clip: none;
             background-clip: none;
-            color: #080828;
+            color: #000;
             background-image: none !important; } }
         header nav .sec_nav a .icon {
           width: 80px;
@@ -901,30 +901,30 @@ header {
               width: 56px;
               margin-right: 20px; } }
         header nav .sec_nav a.color_blue {
-          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #0497EA), color-stop(50%, #080828));
-          background-image: -webkit-linear-gradient(bottom, #0497EA 50%, #080828 50%);
-          background-image: -o-linear-gradient(bottom, #0497EA 50%, #080828 50%);
-          background-image: linear-gradient(to top, #0497EA 50%, #080828 50%); }
+          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #0497EA), color-stop(50%, #000));
+          background-image: -webkit-linear-gradient(bottom, #0497EA 50%, #000 50%);
+          background-image: -o-linear-gradient(bottom, #0497EA 50%, #000 50%);
+          background-image: linear-gradient(to top, #0497EA 50%, #000 50%); }
         header nav .sec_nav a.color_green {
-          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #4BD8A5), color-stop(50%, #080828));
-          background-image: -webkit-linear-gradient(bottom, #4BD8A5 50%, #080828 50%);
-          background-image: -o-linear-gradient(bottom, #4BD8A5 50%, #080828 50%);
-          background-image: linear-gradient(to top, #4BD8A5 50%, #080828 50%); }
+          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #4BD8A5), color-stop(50%, #000));
+          background-image: -webkit-linear-gradient(bottom, #4BD8A5 50%, #000 50%);
+          background-image: -o-linear-gradient(bottom, #4BD8A5 50%, #000 50%);
+          background-image: linear-gradient(to top, #4BD8A5 50%, #000 50%); }
         header nav .sec_nav a.color_pink {
-          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #F26D85), color-stop(50%, #080828));
-          background-image: -webkit-linear-gradient(bottom, #F26D85 50%, #080828 50%);
-          background-image: -o-linear-gradient(bottom, #F26D85 50%, #080828 50%);
-          background-image: linear-gradient(to top, #F26D85 50%, #080828 50%); }
+          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #F26D85), color-stop(50%, #000));
+          background-image: -webkit-linear-gradient(bottom, #F26D85 50%, #000 50%);
+          background-image: -o-linear-gradient(bottom, #F26D85 50%, #000 50%);
+          background-image: linear-gradient(to top, #F26D85 50%, #000 50%); }
         header nav .sec_nav a.color_yellow {
-          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #F9BC20), color-stop(50%, #080828));
-          background-image: -webkit-linear-gradient(bottom, #F9BC20 50%, #080828 50%);
-          background-image: -o-linear-gradient(bottom, #F9BC20 50%, #080828 50%);
-          background-image: linear-gradient(to top, #F9BC20 50%, #080828 50%); }
+          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #F9BC20), color-stop(50%, #000));
+          background-image: -webkit-linear-gradient(bottom, #F9BC20 50%, #000 50%);
+          background-image: -o-linear-gradient(bottom, #F9BC20 50%, #000 50%);
+          background-image: linear-gradient(to top, #F9BC20 50%, #000 50%); }
         header nav .sec_nav a.color_orange {
-          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #e98b23), color-stop(50%, #080828));
-          background-image: -webkit-linear-gradient(bottom, #e98b23 50%, #080828 50%);
-          background-image: -o-linear-gradient(bottom, #e98b23 50%, #080828 50%);
-          background-image: linear-gradient(to top, #e98b23 50%, #080828 50%); }
+          background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #e98b23), color-stop(50%, #000));
+          background-image: -webkit-linear-gradient(bottom, #e98b23 50%, #000 50%);
+          background-image: -o-linear-gradient(bottom, #e98b23 50%, #000 50%);
+          background-image: linear-gradient(to top, #e98b23 50%, #000 50%); }
         header nav .sec_nav a:hover {
           background-position: bottom; }
     header nav .top {
@@ -974,9 +974,9 @@ header {
           width: 100%;
           opacity: 1; }
       header nav .top_mobile.sec > div {
-        color: #080828; }
+        color: #000; }
         header nav .top_mobile.sec > div:after {
-          background-color: #080828; }
+          background-color: #000; }
   header .nav_bar_mobile {
     display: none;
     -webkit-box-pack: justify;
@@ -986,7 +986,7 @@ header {
         -ms-flex-align: center;
             align-items: center;
     background-color: #F8FAFB;
-    border-bottom: 1px solid #080828;
+    border-bottom: 1px solid #000;
     padding: 20px 24px;
     -webkit-transition: background-color 0.4s, border-color 0.4s;
     -o-transition: background-color 0.4s, border-color 0.4s;
@@ -998,14 +998,14 @@ header {
         display: -ms-flexbox;
         display: flex; } }
     header .nav_bar_mobile svg path {
-      fill: #09068B;
+      fill: #F9BC20;
       -webkit-transition: fill 0.4s;
       -o-transition: fill 0.4s;
       transition: fill 0.4s; }
     header .nav_bar_mobile .burger div {
-      background-color: #080828; }
+      background-color: #000; }
   header.dark .nav_bar, header.open .nav_bar {
-    background-color: #080828;
+    background-color: #000;
     border-right: 1px solid #ffffff; }
     header.dark .nav_bar svg path, header.open .nav_bar svg path {
       fill: #ffffff; }
@@ -1016,7 +1016,7 @@ header {
     header.dark .nav_bar .tagline, header.open .nav_bar .tagline {
       color: #ffffff; }
   header.dark .nav_bar_mobile, header.open .nav_bar_mobile {
-    background-color: #080828;
+    background-color: #000;
     border-bottom: 1px solid #ffffff; }
     header.dark .nav_bar_mobile svg path, header.open .nav_bar_mobile svg path {
       fill: #ffffff; }
@@ -1040,7 +1040,7 @@ header {
             transform: rotate(-45deg) translate(2px, 4px); }
 
 footer {
-  background-color: #09068B;
+  background-color: #F9BC20;
   color: #ffffff;
   padding-top: 125px;
   padding-bottom: 75px;
@@ -1087,10 +1087,10 @@ footer {
         -webkit-transition: background-position 0.6s ease-in-out;
         -o-transition: background-position 0.6s ease-in-out;
         transition: background-position 0.6s ease-in-out;
-        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffffff), color-stop(50%, #09068B));
-        background-image: -webkit-linear-gradient(bottom, #ffffff 50%, #09068B 50%);
-        background-image: -o-linear-gradient(bottom, #ffffff 50%, #09068B 50%);
-        background-image: linear-gradient(to top, #ffffff 50%, #09068B 50%);
+        background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #ffffff), color-stop(50%, #F9BC20));
+        background-image: -webkit-linear-gradient(bottom, #ffffff 50%, #F9BC20 50%);
+        background-image: -o-linear-gradient(bottom, #ffffff 50%, #F9BC20 50%);
+        background-image: linear-gradient(to top, #ffffff 50%, #F9BC20 50%);
         /* -- @include break(mobile)-- */ }
         @media only screen and (max-width: 991px) {
           footer .container .col1 a {
@@ -1244,7 +1244,7 @@ footer {
 html {
   overflow-x: hidden;
   overflow-y: scroll;
-  background-color: #080828;
+  background-color: #000;
   color: #000000;
   overflow: -moz-scrollbars-none;
   -ms-overflow-style: none; }
@@ -1259,7 +1259,7 @@ html {
 body {
   padding-left: 120px;
   background-color: #F8FAFB;
-  color: #080828;
+  color: #000;
   font-size: 16px;
   line-height: 1.4em;
   /* -- @include break(mobile)-- */
@@ -1300,7 +1300,7 @@ div.transition {
             transform: translate(-50%, -50%); }
   div.transition .slash {
     position: absolute;
-    background-color: #080828;
+    background-color: #000;
     -webkit-transform: skewX(-20deg);
         -ms-transform: skewX(-20deg);
             transform: skewX(-20deg);
@@ -1644,7 +1644,7 @@ h1 a, h2 a, h3 a, h4 a {
       -ms-flex-align: center;
           align-items: center; }
   .link_arrow.link_blue {
-    color: #09068B; }
+    color: #F9BC20; }
   .link_arrow:hover .ar1 {
     -webkit-transform: translateX(200%);
         -ms-transform: translateX(200%);
@@ -1678,7 +1678,7 @@ h1 a, h2 a, h3 a, h4 a {
   display: inline-block;
   width: 42px;
   height: 42px;
-  background-color: #09068B;
+  background-color: #F9BC20;
   border-radius: 50%;
   margin-left: 30px;
   overflow: hidden;
@@ -1705,14 +1705,14 @@ h1 a, h2 a, h3 a, h4 a {
         -ms-transform: translateX(-200%);
             transform: translateX(-200%); }
   .round_arrow.rd_blue {
-    background-color: #09068B;
+    background-color: #F9BC20;
     -webkit-transition: background-color 0.3s;
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s; }
   .round_arrow.rd_white {
     background-color: #ffffff; }
     .round_arrow.rd_white svg path {
-      fill: #09068B; }
+      fill: #F9BC20; }
 
 .top_page {
   padding-top: 35px;
@@ -1726,7 +1726,7 @@ h1 a, h2 a, h3 a, h4 a {
       -ms-flex-align: center;
           align-items: center;
   letter-spacing: 0.05em;
-  color: #080828;
+  color: #000;
   /* -- @include break(mobile)-- */ }
   @media only screen and (max-width: 991px) {
     .top_page {
@@ -1742,12 +1742,12 @@ h1 a, h2 a, h3 a, h4 a {
       .top_page svg {
         width: 100px; } }
     .top_page svg path {
-      fill: #09068B; }
+      fill: #F9BC20; }
   .top_page .line {
     display: block;
     height: 1px;
     width: 18px;
-    background-color: #080828;
+    background-color: #000;
     margin-right: 10px;
     margin-left: 200px;
     /* -- @include break(mobile)-- */
@@ -1802,7 +1802,7 @@ h1 a, h2 a, h3 a, h4 a {
     opacity: 1; } }
 
 .oxo-view .cta-subscription {
-  background-color: #09068B;
+  background-color: #F9BC20;
   color: #ffffff;
   padding: 87px 0;
   margin-bottom: 1px;
@@ -1921,9 +1921,9 @@ h1 a, h2 a, h3 a, h4 a {
   .oxo-view.template-home .sec1 .bg, .oxo-view.template-home .loader .bg {
     height: 100vh;
     width: 100%;
-    background: -webkit-linear-gradient(346.22deg, #080828 41.72%, #09068B 100%);
-    background: -o-linear-gradient(346.22deg, #080828 41.72%, #09068B 100%);
-    background: linear-gradient(103.78deg, #080828 41.72%, #09068B 100%);
+    background: -webkit-linear-gradient(346.22deg, #000 41.72%, #F9BC20 100%);
+    background: -o-linear-gradient(346.22deg, #000 41.72%, #F9BC20 100%);
+    background: linear-gradient(103.78deg, #000 41.72%, #F9BC20 100%);
     position: relative; }
     .oxo-view.template-home .sec1 .bg .shade, .oxo-view.template-home .loader .bg .shade {
       width: 100%;
@@ -2319,8 +2319,8 @@ h1 a, h2 a, h3 a, h4 a {
         bottom: 0; }
   .oxo-view.template-home .sec4 a.download-btn {
     min-width: 132px;
-    border: 1px solid #09068B;
-    color: #09068B;
+    border: 1px solid #F9BC20;
+    color: #F9BC20;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     border-radius: 50px;
@@ -2347,7 +2347,7 @@ h1 a, h2 a, h3 a, h4 a {
       position: absolute;
       width: 120%;
       height: 110%;
-      background-color: #09068B;
+      background-color: #F9BC20;
       top: 0%;
       left: 0%;
       z-index: -1;
@@ -2361,7 +2361,7 @@ h1 a, h2 a, h3 a, h4 a {
     .oxo-view.template-home .sec4 a.download-btn svg {
       margin-left: 14px; }
       .oxo-view.template-home .sec4 a.download-btn svg path, .oxo-view.template-home .sec4 a.download-btn svg line {
-        stroke: #09068B;
+        stroke: #F9BC20;
         -webkit-transition: all 0.4s;
         -o-transition: all 0.4s;
         transition: all 0.4s; }
@@ -2502,7 +2502,7 @@ h1 a, h2 a, h3 a, h4 a {
                   -ms-transform: translate(-50%, -50%);
                       transform: translate(-50%, -50%); } }
       .oxo-view.template-home .sec5 .round_wrap .round.round_bottom {
-        background-color: #080828;
+        background-color: #000;
         color: #ffffff;
         -webkit-transform: translateX(-11.4%);
             -ms-transform: translateX(-11.4%);
@@ -2558,8 +2558,8 @@ h1 a, h2 a, h3 a, h4 a {
     display: -ms-flexbox;
     display: flex; }
     .oxo-view.template-home .sec5 .tab h4 {
-      border-bottom: 1px solid #080828;
-      color: #080828;
+      border-bottom: 1px solid #000;
+      color: #000;
       width: 50%;
       text-align: center;
       padding-bottom: 15px;
@@ -2657,7 +2657,7 @@ h1 a, h2 a, h3 a, h4 a {
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #080828;
+    color: #000;
     /* -- @include break(mobile)-- */ }
     @media only screen and (max-width: 991px) {
       .oxo-view.template-about .sec1 .scroll {
@@ -2723,7 +2723,7 @@ h1 a, h2 a, h3 a, h4 a {
         .oxo-view.template-about .sec3 .flex .why {
           width: 100%; } }
       .oxo-view.template-about .sec3 .flex .why .slash {
-        background-color: #09068B;
+        background-color: #F9BC20;
         width: 20px;
         height: 200px;
         display: block;
@@ -2848,7 +2848,7 @@ h1 a, h2 a, h3 a, h4 a {
           font-size: 12px;
           letter-spacing: 0.2em;
           text-transform: uppercase;
-          color: #09068B;
+          color: #F9BC20;
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -2861,7 +2861,7 @@ h1 a, h2 a, h3 a, h4 a {
             border-radius: 50%;
             width: 9px;
             height: 9px;
-            background-color: #09068B;
+            background-color: #F9BC20;
             border: 6px solid #C0DDF2;
             display: inline-block;
             -webkit-box-sizing: content-box;
@@ -3000,7 +3000,7 @@ h1 a, h2 a, h3 a, h4 a {
     letter-spacing: 0.2em;
     text-transform: uppercase;
     text-decoration: none;
-    color: #080828;
+    color: #000;
     /* -- @include break(mobile)-- */ }
     @media only screen and (max-width: 991px) {
       .oxo-view.template-strategy .sec1 .scroll {
@@ -3136,8 +3136,8 @@ h1 a, h2 a, h3 a, h4 a {
         display: -ms-flexbox;
         display: flex; } }
     .oxo-view.template-strategy .sec4 .tab > div {
-      border-bottom: 1px solid #080828;
-      color: #080828;
+      border-bottom: 1px solid #000;
+      color: #000;
       width: 50%;
       text-align: center;
       padding-bottom: 15px;
@@ -3182,7 +3182,7 @@ h1 a, h2 a, h3 a, h4 a {
         left: 50%;
         bottom: 0;
         width: 1px;
-        background-color: #080828;
+        background-color: #000;
         z-index: -1;
         overflow: hidden;
         /* -- @include break(mobile)-- */ }
@@ -3200,7 +3200,7 @@ h1 a, h2 a, h3 a, h4 a {
         left: 50%;
         right: -10%;
         height: 1px;
-        background-color: #080828;
+        background-color: #000;
         z-index: -1;
         overflow: hidden;
         /* -- @include break(mobile)-- */
@@ -3249,7 +3249,7 @@ h1 a, h2 a, h3 a, h4 a {
                 flex-direction: column;
         border-radius: 10px;
         background-color: rgba(192, 221, 242, 0.9);
-        color: #080828;
+        color: #000;
         padding: 24px 50px;
         margin-bottom: 10px;
         margin-left: auto;
@@ -3815,7 +3815,7 @@ h1 a, h2 a, h3 a, h4 a {
       text-transform: uppercase;
       text-decoration: none;
       margin-bottom: 150px;
-      color: #080828;
+      color: #000;
       font-family: 'Avenir LT Std', sans-serif;
       font-weight: normal;
       font-style: normal;
@@ -3945,8 +3945,8 @@ h1 a, h2 a, h3 a, h4 a {
                 -ms-flex-pack: justify;
                     justify-content: space-between; } }
         .oxo-view.template-investments .sec1 .img_wrap .left .links a {
-          border: 1px solid #09068B;
-          color: #09068B;
+          border: 1px solid #F9BC20;
+          color: #F9BC20;
           -webkit-box-sizing: border-box;
                   box-sizing: border-box;
           border-radius: 50px;
@@ -3987,7 +3987,7 @@ h1 a, h2 a, h3 a, h4 a {
             position: absolute;
             width: 120%;
             height: 110%;
-            background-color: #09068B;
+            background-color: #F9BC20;
             top: 0%;
             left: 0%;
             z-index: -1;
@@ -4001,7 +4001,7 @@ h1 a, h2 a, h3 a, h4 a {
           .oxo-view.template-investments .sec1 .img_wrap .left .links a svg {
             margin-left: 14px; }
             .oxo-view.template-investments .sec1 .img_wrap .left .links a svg path, .oxo-view.template-investments .sec1 .img_wrap .left .links a svg line {
-              stroke: #09068B;
+              stroke: #F9BC20;
               -webkit-transition: all 0.4s;
               -o-transition: all 0.4s;
               transition: all 0.4s; }
@@ -4101,14 +4101,14 @@ h1 a, h2 a, h3 a, h4 a {
             -webkit-transition: fill 0.4s;
             -o-transition: fill 0.4s;
             transition: fill 0.4s;
-            fill: #09068B; }
+            fill: #F9BC20; }
           .oxo-view.template-investments .sec2 .right .content .slider_nav svg circle {
-            stroke: #09068B;
+            stroke: #F9BC20;
             -webkit-transition: fill 0.4s;
             -o-transition: fill 0.4s;
             transition: fill 0.4s; }
           .oxo-view.template-investments .sec2 .right .content .slider_nav svg:hover circle {
-            fill: #09068B; }
+            fill: #F9BC20; }
           .oxo-view.template-investments .sec2 .right .content .slider_nav svg:hover path {
             fill: #ffffff; }
     .oxo-view.template-investments .sec2 .right .slider {
@@ -4186,7 +4186,7 @@ h1 a, h2 a, h3 a, h4 a {
       font-style: normal;
       line-height: 1em;
       letter-spacing: 0.05em;
-      -webkit-text-stroke: 1px #080828;
+      -webkit-text-stroke: 1px #000;
       text-decoration: none;
       color: transparent;
       -webkit-background-clip: text,padding-box;
@@ -4194,10 +4194,10 @@ h1 a, h2 a, h3 a, h4 a {
       background-size: 100% 300%;
       background-position-y: 0%;
       background-position-x: center;
-      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #F8FAFB), color-stop(50%, #080828));
-      background-image: -webkit-linear-gradient(bottom, #F8FAFB 50%, #080828 50%);
-      background-image: -o-linear-gradient(bottom, #F8FAFB 50%, #080828 50%);
-      background-image: linear-gradient(to top, #F8FAFB 50%, #080828 50%);
+      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #F8FAFB), color-stop(50%, #000));
+      background-image: -webkit-linear-gradient(bottom, #F8FAFB 50%, #000 50%);
+      background-image: -o-linear-gradient(bottom, #F8FAFB 50%, #000 50%);
+      background-image: linear-gradient(to top, #F8FAFB 50%, #000 50%);
       /* -- @include break(mobile)-- */ }
       @media only screen and (max-width: 991px) {
         .oxo-view.template-investments .sec3 .number .stat {
@@ -4675,7 +4675,7 @@ h1 a, h2 a, h3 a, h4 a {
         text-decoration: none;
         margin-bottom: 200px;
         margin-top: 0;
-        color: #080828;
+        color: #000;
         font-family: 'Avenir LT Std', sans-serif;
         font-weight: normal;
         font-style: normal;
@@ -4692,7 +4692,7 @@ h1 a, h2 a, h3 a, h4 a {
       font-size: 6em;
       line-height: 1em;
       letter-spacing: 0.05em;
-      -webkit-text-stroke: 1px #080828;
+      -webkit-text-stroke: 1px #000;
       text-decoration: none;
       color: transparent;
       -webkit-background-clip: text,padding-box;
@@ -4700,10 +4700,10 @@ h1 a, h2 a, h3 a, h4 a {
       background-size: 100% 200%;
       background-position-y: 0%;
       background-position-x: center;
-      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #F8FAFB), color-stop(50%, #080828));
-      background-image: -webkit-linear-gradient(bottom, #F8FAFB 50%, #080828 50%);
-      background-image: -o-linear-gradient(bottom, #F8FAFB 50%, #080828 50%);
-      background-image: linear-gradient(to top, #F8FAFB 50%, #080828 50%);
+      background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #F8FAFB), color-stop(50%, #000));
+      background-image: -webkit-linear-gradient(bottom, #F8FAFB 50%, #000 50%);
+      background-image: -o-linear-gradient(bottom, #F8FAFB 50%, #000 50%);
+      background-image: linear-gradient(to top, #F8FAFB 50%, #000 50%);
       pointer-events: none;
       /* -- @include break(mobile)-- */ }
       @media only screen and (max-width: 991px) {
@@ -4742,10 +4742,10 @@ h1 a, h2 a, h3 a, h4 a {
         background-image: linear-gradient(to top, #e98b23 50%, #F8FAFB 50%); }
 
 .oxo-view.template-investments.color_blue .container_invest .right h1 {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #080828), color-stop(50%, #0497EA));
-  background-image: -webkit-linear-gradient(bottom right, #080828 50%, #0497EA 50%);
-  background-image: -o-linear-gradient(bottom right, #080828 50%, #0497EA 50%);
-  background-image: linear-gradient(to top left, #080828 50%, #0497EA 50%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #000), color-stop(50%, #0497EA));
+  background-image: -webkit-linear-gradient(bottom right, #000 50%, #0497EA 50%);
+  background-image: -o-linear-gradient(bottom right, #000 50%, #0497EA 50%);
+  background-image: linear-gradient(to top left, #000 50%, #0497EA 50%); }
 
 .oxo-view.template-investments.color_blue .top_page svg .slash, .oxo-view.template-investments.color_blue .logo_slash {
   fill: #0497EA !important; }
@@ -4771,10 +4771,10 @@ h1 a, h2 a, h3 a, h4 a {
   fill: #ffffff; }
 
 .oxo-view.template-investments.color_green .container_invest .right h1 {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #080828), color-stop(50%, #4BD8A5));
-  background-image: -webkit-linear-gradient(bottom right, #080828 50%, #4BD8A5 50%);
-  background-image: -o-linear-gradient(bottom right, #080828 50%, #4BD8A5 50%);
-  background-image: linear-gradient(to top left, #080828 50%, #4BD8A5 50%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #000), color-stop(50%, #4BD8A5));
+  background-image: -webkit-linear-gradient(bottom right, #000 50%, #4BD8A5 50%);
+  background-image: -o-linear-gradient(bottom right, #000 50%, #4BD8A5 50%);
+  background-image: linear-gradient(to top left, #000 50%, #4BD8A5 50%); }
 
 .oxo-view.template-investments.color_green .top_page svg .slash {
   fill: #4BD8A5 !important; }
@@ -4800,10 +4800,10 @@ h1 a, h2 a, h3 a, h4 a {
   fill: #ffffff; }
 
 .oxo-view.template-investments.color_pink .container_invest .right h1 {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #080828), color-stop(50%, #F26D85));
-  background-image: -webkit-linear-gradient(bottom right, #080828 50%, #F26D85 50%);
-  background-image: -o-linear-gradient(bottom right, #080828 50%, #F26D85 50%);
-  background-image: linear-gradient(to top left, #080828 50%, #F26D85 50%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #000), color-stop(50%, #F26D85));
+  background-image: -webkit-linear-gradient(bottom right, #000 50%, #F26D85 50%);
+  background-image: -o-linear-gradient(bottom right, #000 50%, #F26D85 50%);
+  background-image: linear-gradient(to top left, #000 50%, #F26D85 50%); }
 
 .oxo-view.template-investments.color_pink .top_page svg .slash {
   fill: #F26D85 !important; }
@@ -4829,10 +4829,10 @@ h1 a, h2 a, h3 a, h4 a {
   fill: #ffffff; }
 
 .oxo-view.template-investments.color_yellow .container_invest .right h1 {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #080828), color-stop(50%, #F9BC20));
-  background-image: -webkit-linear-gradient(bottom right, #080828 50%, #F9BC20 50%);
-  background-image: -o-linear-gradient(bottom right, #080828 50%, #F9BC20 50%);
-  background-image: linear-gradient(to top left, #080828 50%, #F9BC20 50%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #000), color-stop(50%, #F9BC20));
+  background-image: -webkit-linear-gradient(bottom right, #000 50%, #F9BC20 50%);
+  background-image: -o-linear-gradient(bottom right, #000 50%, #F9BC20 50%);
+  background-image: linear-gradient(to top left, #000 50%, #F9BC20 50%); }
 
 .oxo-view.template-investments.color_yellow .top_page svg .slash {
   fill: #F9BC20 !important; }
@@ -4858,10 +4858,10 @@ h1 a, h2 a, h3 a, h4 a {
   fill: #ffffff; }
 
 .oxo-view.template-investments.color_orange .container_invest .right h1 {
-  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #080828), color-stop(50%, #e98b23));
-  background-image: -webkit-linear-gradient(bottom right, #080828 50%, #e98b23 50%);
-  background-image: -o-linear-gradient(bottom right, #080828 50%, #e98b23 50%);
-  background-image: linear-gradient(to top left, #080828 50%, #e98b23 50%); }
+  background-image: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #000), color-stop(50%, #e98b23));
+  background-image: -webkit-linear-gradient(bottom right, #000 50%, #e98b23 50%);
+  background-image: -o-linear-gradient(bottom right, #000 50%, #e98b23 50%);
+  background-image: linear-gradient(to top left, #000 50%, #e98b23 50%); }
 
 .oxo-view.template-investments.color_orange .top_page svg .slash {
   fill: #e98b23 !important; }
@@ -4978,7 +4978,7 @@ body.color_orange header svg .logo_slash {
           border: none;
           background-color: transparent;
           opacity: 0.3;
-          border-bottom: 2px solid #080828;
+          border-bottom: 2px solid #000;
           display: inline;
           font-size: 16px;
           -webkit-transition: all 0.4s;
@@ -4994,18 +4994,18 @@ body.color_orange header svg .logo_slash {
           .oxo-view.template-contact .sec1 .container .form_wrap form input:focus, .oxo-view.template-contact .sec1 .container .form_wrap form textarea:focus, .oxo-view.template-contact .sec1 .container .form_wrap form select:focus {
             outline: none;
             opacity: 1;
-            border-bottom: 2px solid #09068B;
-            color: #09068B; }
+            border-bottom: 2px solid #F9BC20;
+            color: #F9BC20; }
         .oxo-view.template-contact .sec1 .container .form_wrap form textarea {
           width: 100%; }
         .oxo-view.template-contact .sec1 .container .form_wrap form ::-webkit-input-placeholder {
-          color: #080828; }
+          color: #000; }
         .oxo-view.template-contact .sec1 .container .form_wrap form ::-moz-placeholder {
-          color: #080828; }
+          color: #000; }
         .oxo-view.template-contact .sec1 .container .form_wrap form :-ms-input-placeholder {
-          color: #080828; }
+          color: #000; }
         .oxo-view.template-contact .sec1 .container .form_wrap form :-moz-placeholder {
-          color: #080828; }
+          color: #000; }
         .oxo-view.template-contact .sec1 .container .form_wrap form input::-webkit-outer-spin-button,
         .oxo-view.template-contact .sec1 .container .form_wrap form input::-webkit-inner-spin-button {
           -webkit-appearance: none;
@@ -5050,7 +5050,7 @@ body.color_orange header svg .logo_slash {
             .oxo-view.template-contact .sec1 .container .form_wrap form .form_page .bottom_nav2 .ajax-loader {
               display: none; }
             .oxo-view.template-contact .sec1 .container .form_wrap form .form_page .bottom_nav2 input[type="submit"] {
-              background: #09068B;
+              background: #F9BC20;
               padding: 15px 50px;
               border-radius: 50px;
               color: #ffffff;
@@ -5071,7 +5071,7 @@ body.color_orange header svg .logo_slash {
             font-family: 'Avenir LT Std', sans-serif;
             font-weight: 900;
             font-style: normal;
-            color: #09068B;
+            color: #F9BC20;
             opacity: 0.3;
             -webkit-transition: opacity 0.4s;
             -o-transition: opacity 0.4s;
@@ -5127,7 +5127,7 @@ body.color_orange header svg .logo_slash {
         margin-bottom: 20px; }
       .oxo-view.template-contact .sec1 .container .info a {
         text-decoration: none;
-        color: #080828;
+        color: #000;
         -webkit-transition: color 0.4s;
         -o-transition: color 0.4s;
         transition: color 0.4s; }
@@ -5169,7 +5169,7 @@ body.color_orange header svg .logo_slash {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #09068B;
+  background-color: #F9BC20;
   color: #ffffff;
   border: none;
   -webkit-box-pack: center;
@@ -5232,7 +5232,7 @@ body.filter-is-open {
                 transform: translateX(0) !important; }
   body.filter-is-open .cta-holder:before {
     content: '';
-    background: #080828;
+    background: #000;
     height: 100vh;
     width: 100vw;
     opacity: 0.4;
@@ -5245,7 +5245,7 @@ body.filter-is-open {
     transition: .3s; }
 
 .template-blog-archive section.banner-top {
-  background: #080828;
+  background: #000;
   color: #ffffff; }
   .template-blog-archive section.banner-top .lightContainer {
     position: absolute;
@@ -5360,7 +5360,7 @@ body.filter-is-open {
           overflow-y: scroll;
           display: block;
           padding: 10%;
-          color: #080828;
+          color: #000;
           -webkit-transform: translateX(100%);
               -ms-transform: translateX(100%);
                   transform: translateX(100%);
@@ -5412,9 +5412,9 @@ body.filter-is-open {
                 -ms-transform: translate(-50%, -50%) rotate(-45deg);
                     transform: translate(-50%, -50%) rotate(-45deg); }
           .template-blog-archive section.banner-top .filter-block .filter-left .filter-header-responsive .close-btn:hover {
-            border-color: #080828; }
+            border-color: #000; }
             .template-blog-archive section.banner-top .filter-block .filter-left .filter-header-responsive .close-btn:hover:before, .template-blog-archive section.banner-top .filter-block .filter-left .filter-header-responsive .close-btn:hover:after {
-              background-color: #080828; }
+              background-color: #000; }
       .template-blog-archive section.banner-top .filter-block .filter-left .filter-item, .template-blog-archive section.banner-top .filter-block .filter-left .search-bar {
         margin-right: 40px;
         position: relative;
@@ -5447,7 +5447,7 @@ body.filter-is-open {
             /* -- @include break(mobile)-- */ }
             @media only screen and (max-width: 991px) {
               .template-blog-archive section.banner-top .filter-block .filter-left .filter-item .header .arrow, .template-blog-archive section.banner-top .filter-block .filter-left .search-bar .header .arrow {
-                border-color: #080828; } }
+                border-color: #000; } }
         .template-blog-archive section.banner-top .filter-block .filter-left .filter-item.is-open .arrow, .template-blog-archive section.banner-top .filter-block .filter-left .search-bar.is-open .arrow {
           -webkit-transform: rotate(-135deg);
               -ms-transform: rotate(-135deg);
@@ -5458,7 +5458,7 @@ body.filter-is-open {
           border-radius: 6px;
           padding: 0 25px;
           width: 266px;
-          color: #09068B;
+          color: #F9BC20;
           cursor: default;
           overflow: hidden;
           position: absolute;
@@ -5476,14 +5476,14 @@ body.filter-is-open {
                       box-shadow: none;
               padding: 10px 0 25px; } }
           .template-blog-archive section.banner-top .filter-block .filter-left .filter-item .select-box li, .template-blog-archive section.banner-top .filter-block .filter-left .search-bar .select-box li {
-            color: #080828;
+            color: #000;
             margin-bottom: 18px;
             -webkit-transition: .25s;
             -o-transition: .25s;
             transition: .25s;
             cursor: pointer; }
             .template-blog-archive section.banner-top .filter-block .filter-left .filter-item .select-box li:hover, .template-blog-archive section.banner-top .filter-block .filter-left .filter-item .select-box li.selected, .template-blog-archive section.banner-top .filter-block .filter-left .search-bar .select-box li:hover, .template-blog-archive section.banner-top .filter-block .filter-left .search-bar .select-box li.selected {
-              color: #09068B; }
+              color: #F9BC20; }
             .template-blog-archive section.banner-top .filter-block .filter-left .filter-item .select-box li:first-of-type, .template-blog-archive section.banner-top .filter-block .filter-left .search-bar .select-box li:first-of-type {
               margin-top: 25px; }
             .template-blog-archive section.banner-top .filter-block .filter-left .filter-item .select-box li:last-of-type, .template-blog-archive section.banner-top .filter-block .filter-left .search-bar .select-box li:last-of-type {
@@ -5617,7 +5617,7 @@ body.filter-is-open {
             padding: 15px 20px 60px;
             min-height: 0; } }
         .template-blog-archive section.blog-archive-cards .cards-list-flex .card .info .cat {
-          color: #09068B;
+          color: #F9BC20;
           font-size: 12px;
           font-weight: 700;
           letter-spacing: 0.2em;
@@ -5633,7 +5633,7 @@ body.filter-is-open {
           bottom: 24px;
           left: 32px;
           font-size: 12px;
-          color: #080828;
+          color: #000;
           opacity: 0.3;
           /* -- @include break(mobile)-- */ }
           @media only screen and (max-width: 576px) {
@@ -5651,8 +5651,8 @@ body.filter-is-open {
     text-align: center; }
     .template-blog-archive section.blog-archive-cards .bottom .load-more {
       cursor: pointer;
-      background-color: #09068B;
-      border: 1px solid #09068B;
+      background-color: #F9BC20;
+      border: 1px solid #F9BC20;
       color: #ffffff;
       -webkit-box-sizing: border-box;
               box-sizing: border-box;
@@ -5683,7 +5683,7 @@ body.filter-is-open {
       transition: all 0.3s; }
       .template-blog-archive section.blog-archive-cards .bottom .load-more:hover {
         background-color: #ffffff;
-        color: #09068B; }
+        color: #F9BC20; }
 
 .oxo-view.template-blog-single .container_block {
   display: -webkit-box;
@@ -5722,20 +5722,20 @@ body.filter-is-open {
     .oxo-view.template-blog-single .container_block .left .post-info .info-item {
       margin-bottom: 26px; }
       .oxo-view.template-blog-single .container_block .left .post-info .info-item .header {
-        color: #080828;
+        color: #000;
         opacity: 0.3;
         font-weight: 500;
         margin-bottom: 8px; }
       .oxo-view.template-blog-single .container_block .left .post-info .info-item .value {
-        color: #080828;
+        color: #000;
         font-weight: 500; }
       .oxo-view.template-blog-single .container_block .left .post-info .info-item.category .value {
-        color: #09068B;
+        color: #F9BC20;
         text-transform: uppercase;
         letter-spacing: 0.2em;
         font-weight: 700; }
       .oxo-view.template-blog-single .container_block .left .post-info .info-item.back-blog a {
-        color: #09068B;
+        color: #F9BC20;
         -webkit-transition: .25s;
         -o-transition: .25s;
         transition: .25s; }
@@ -5748,7 +5748,7 @@ body.filter-is-open {
       text-transform: uppercase;
       text-decoration: none;
       margin-bottom: 80px;
-      color: #080828;
+      color: #000;
       font-family: 'Avenir LT Std', sans-serif;
       font-weight: normal;
       font-style: normal;
@@ -5794,7 +5794,7 @@ body.filter-is-open {
         width: 100%;
         padding-left: 0; } }
     .oxo-view.template-blog-single .container_block .right h1.title {
-      color: #09068B;
+      color: #F9BC20;
       background-position: 100% 100% !important;
       margin: 0 0 80px;
       /* -- @include break(mobile)-- */ }
@@ -5903,7 +5903,7 @@ body.filter-is-open {
         line-height: 1.5em; }
       .oxo-view.template-blog-single .sec2 .right .content-wrapper a,
       .oxo-view.template-blog-single .sec3 .right .content-wrapper a {
-        color: #09068B;
+        color: #F9BC20;
         text-decoration: none;
         -webkit-transition: .25s;
         -o-transition: .25s;
