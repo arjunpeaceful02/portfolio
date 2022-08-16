@@ -1,0 +1,40 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 10 Aug 2022 11:00:10 at https://evoocapital.com/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://evoocapital.com/ -O1 "C:\Users\Arjun\Desktop\evoo" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:01:29	Error: 	"Forbidden" (403) at link https://evoocapital.com/xmlrpc.php?rsd (from https://evoocapital.com/)
+11:01:29	Error: 	"Bad Request" (400) at link https://evoocapital.com/wp-admin/admin-ajax.php (from https://evoocapital.com/)
+11:02:38	Error: 	"Not Found" (404) at link https://evoocapital.com/transparent (from https://evoocapital.com/)
+11:02:47	Error: 	"Not Found" (404) at link https://evoocapital.com/wp-content/themes/evoo/dist/img/logo_slash_dark.svg (from https://evoocapital.com/wp-content/themes/evoo/dist/css/style.css)
+11:02:47	Warning: 	Moved Permanently for https://evoocapital.com/?p=39
+11:02:47	Warning: 	File has moved from https://evoocapital.com/?p=39 to https://evoocapital.com/strategy-approach/
+11:02:47	Error: 	"Not Found" (404) at link https://evoocapital.com/strategy-approach/transparent (from https://evoocapital.com/strategy-approach/)
+11:02:48	Warning: 	Moved Permanently for https://evoocapital.com/?p=41
+11:02:48	Warning: 	File has moved from https://evoocapital.com/?p=41 to https://evoocapital.com/about-us/
+11:02:48	Warning: 	Moved Permanently for https://evoocapital.com/?p=394
+11:02:48	Warning: 	File has moved from https://evoocapital.com/?p=394 to https://evoocapital.com/blog/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=43
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=43 to https://evoocapital.com/contact/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=341
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=341 to https://evoocapital.com/investments/blockchain/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=226
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=226 to https://evoocapital.com/investments/cloud-computing/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=239
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=239 to https://evoocapital.com/investments/digital-assets/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=273
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=273 to https://evoocapital.com/legal/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=3
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=3 to https://evoocapital.com/privacy-policy/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=410
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=410 to https://evoocapital.com/the-only-article-youll-need-to-talk-about-nfts/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=405
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=405 to https://evoocapital.com/crypto-mining-stocks-a-blockchain-infrastructure-play/
+11:03:07	Warning: 	Moved Permanently for https://evoocapital.com/?p=397
+11:03:07	Warning: 	File has moved from https://evoocapital.com/?p=397 to https://evoocapital.com/10-areas-where-blockchain-will-make-a-difference/
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 57 seconds : 191 links scanned, 173 files written (16625773 bytes overall) [15363808 bytes received at 86801 bytes/sec], 1979416 bytes transferred using HTTP compression in 53 files, ratio 26%, 1.0 requests per connection
+(5 errors, 24 warnings, 0 messages)
