@@ -1972,7 +1972,7 @@ h1 a, h2 a, h3 a, h4 a {
     -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: 440px;
+            width: 550px;
     /* -- @include break(mobile)-- */ }
     @media only screen and (max-width: 991px) {
       .oxo-view.template-home .sec1 .slash_wrap, .oxo-view.template-home .loader .slash_wrap {
