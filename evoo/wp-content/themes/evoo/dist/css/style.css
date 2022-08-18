@@ -671,7 +671,7 @@ header {
       line-height: 150%;
       letter-spacing: 0.05em;
       text-transform: uppercase;
-      width: 75px;
+      width: 100px;
       color: #000;
       -webkit-transform: rotate(-90deg) translateX(20px);
           -ms-transform: rotate(-90deg) translateX(20px);
@@ -1146,7 +1146,7 @@ footer {
       footer .container .col2 .linkedin, footer .container .col3 .linkedin {
         margin-top: 10px; }
   footer .bottom {
-    padding-top: 200px;
+    padding-top: 70px;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -2042,7 +2042,7 @@ h1 a, h2 a, h3 a, h4 a {
 
 .oxo-view.template-home .sec3 {
   position: relative;
-  padding-top: 250px;
+  padding-top: 50px;
   padding-bottom: 200px;
   /* -- @include break(mobile)-- */ }
   @media only screen and (max-width: 768px) {
@@ -5965,6 +5965,7 @@ body.filter-is-open {
 }
 .presentation-wrapper .presentation-box .flex-main .left-set .head-number h1 {
   margin-top: 0;
+  font-size: 55px;
 }
 .presentation-wrapper .presentation-box .flex-main .left-set .content-inner button {
   background-color: #000;
@@ -5973,6 +5974,19 @@ body.filter-is-open {
   color: #fff;
   font-weight: bold;
   border-radius: 3px;
+  margin-top: 40px;
+}
+
+.presentation-wrapper .presentation-box .flex-main .left-set .content-inner h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.presentation-wrapper .presentation-box .flex-main .left-set {
+  padding-right: 100px;
+}
+
+.presentation-wrapper .presentation-box .flex-main .left-set .content-inner p {
   margin-top: 40px;
 }
 
