@@ -2664,8 +2664,7 @@ h1 a, h2 a, h3 a, h4 a {
         display: none; } }
 
 .oxo-view.template-about .sec2 {
-  padding-top: 300px;
-  padding-bottom: 250px;
+  padding-top: 50px;
   /* -- @include break(mobile)-- */ }
   @media only screen and (max-width: 991px) {
     .oxo-view.template-about .sec2 {
@@ -2673,7 +2672,6 @@ h1 a, h2 a, h3 a, h4 a {
       padding-bottom: 100px; } }
   .oxo-view.template-about .sec2 .txt {
     opacity: 0;
-    width: 50%;
     font-size: 1.6em;
     line-height: 1.5em;
     /* -- @include break(mobile)-- */ }
