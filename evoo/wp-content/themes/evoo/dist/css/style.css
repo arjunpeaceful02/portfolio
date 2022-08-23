@@ -2072,8 +2072,16 @@ h1 a, h2 a, h3 a, h4 a {
   .oxo-view.template-home .sec3 .mosaique {
     margin-top: 250px;
     padding-bottom: 250px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     /* -- @include break(mobile)-- */
     /* -- @include break(mobile)-- */ }
+
+    .oxo-view.template-home .sec3 .mosaique .innovation{
+width: 25%;
+margin: 25px;
+    }
     @media only screen and (max-width: 991px) {
       .oxo-view.template-home .sec3 .mosaique {
         display: -webkit-box;
@@ -2427,7 +2435,7 @@ h1 a, h2 a, h3 a, h4 a {
     .oxo-view.template-home .sec5 .intro p {
       padding-top: 15px;
       width: 80%;
-      max-width: 500px;
+      max-width: 880px;
       margin-left: auto;
       margin-right: auto; }
   .oxo-view.template-home .sec5 .round_wrap {
@@ -2836,7 +2844,7 @@ h1 a, h2 a, h3 a, h4 a {
             .oxo-view.template-about .sec4 .flex .team_wrap .team_sec:before {
               display: none; } }
         .oxo-view.template-about .sec4 .flex .team_wrap .team_sec.animated:before {
-          height: calc(100% - 41px); }
+           height: 200%; }
         .oxo-view.template-about .sec4 .flex .team_wrap .team_sec:last-of-type:before {
           display: none; }
         .oxo-view.template-about .sec4 .flex .team_wrap .team_sec h5 {
@@ -2876,8 +2884,8 @@ h1 a, h2 a, h3 a, h4 a {
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         margin-left: 100px;
-        padding-top: 100px;
-        padding-bottom: 100px;
+        padding-top: 80px;
+        /* padding-bottom: 100px; */
         /* -- @include break(mobile)-- */ }
         @media only screen and (max-width: 991px) {
           .oxo-view.template-about .sec4 .flex .team_wrap .team {
