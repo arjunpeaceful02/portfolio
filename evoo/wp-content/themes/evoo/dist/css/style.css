@@ -2040,146 +2040,138 @@ h1 a, h2 a, h3 a, h4 a {
       .oxo-view.template-home .sec2 .container .content .link_arrow {
         margin-top: 70px; }
 
-.oxo-view.template-home .sec3 {
-  position: relative;
-  padding-top: 50px;
-  padding-bottom: 200px;
-  /* -- @include break(mobile)-- */ }
-  @media only screen and (max-width: 768px) {
-    .oxo-view.template-home .sec3 {
-      padding-top: 150px;
-      padding-bottom: 40px; } }
-  .oxo-view.template-home .sec3 h2 {
-    opacity: 0;
-    text-align: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%);
-    padding-left: 10%;
-    padding-right: 10%;
-    z-index: 1;
-    /* -- @include break(mobile)-- */ }
-    @media only screen and (max-width: 991px) {
-      .oxo-view.template-home .sec3 h2 {
-        position: relative;
-        top: auto;
-        -webkit-transform: translateY(0%);
-            -ms-transform: translateY(0%);
-                transform: translateY(0%); } }
-  .oxo-view.template-home .sec3 .mosaique {
-    margin-top: 250px;
-    padding-bottom: 250px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    /* -- @include break(mobile)-- */
-    /* -- @include break(mobile)-- */ }
-
-    .oxo-view.template-home .sec3 .mosaique .innovation{
-width: 25%;
-margin: 25px;
-    }
-    @media only screen and (max-width: 991px) {
-      .oxo-view.template-home .sec3 .mosaique {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-        padding-bottom: 0px; } }
-    @media only screen and (max-width: 768px) {
-      .oxo-view.template-home .sec3 .mosaique {
-        margin-top: 100px;
-        display: block; } }
-  .oxo-view.template-home .sec3 .innovation {
-    width: 340px;
-    position: relative;
-    z-index: 2;
-    /* -- @include break(mobile)-- */
-    /* -- @include break(mobile)-- */
-    /* -- @include break(mobile)-- */
-    /* -- @include break(mobile)-- */ }
-    @media only screen and (max-width: 1280px) {
-      .oxo-view.template-home .sec3 .innovation {
-        margin-top: 60px !important; } }
-    @media only screen and (max-width: 991px) {
-      .oxo-view.template-home .sec3 .innovation {
-        width: 45%;
-        margin-top: 0px !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        margin-bottom: 60px !important; } }
-    @media only screen and (max-width: 768px) {
-      .oxo-view.template-home .sec3 .innovation {
-        width: 90%;
-        max-width: 340px; } }
-    @media only screen and (max-width: 576px) {
-      .oxo-view.template-home .sec3 .innovation {
-        margin-bottom: 30px !important; } }
-    .oxo-view.template-home .sec3 .innovation img {
-      margin-bottom: 25px;
-      width: 100%;
-      height: auto;
-      /* -- @include break(mobile)-- */ }
-      @media only screen and (max-width: 576px) {
-        .oxo-view.template-home .sec3 .innovation img {
-          margin-bottom: 10px; } }
-      .oxo-view.template-home .sec3 .innovation img.img_desktop {
-        /* -- @include break(mobile)-- */ }
-        @media only screen and (max-width: 768px) {
-          .oxo-view.template-home .sec3 .innovation img.img_desktop {
-            display: none; } }
-      .oxo-view.template-home .sec3 .innovation img.img_mobile {
-        display: none;
-        /* -- @include break(mobile)-- */ }
-        @media only screen and (max-width: 768px) {
-          .oxo-view.template-home .sec3 .innovation img.img_mobile {
-            display: block; } }
-    .oxo-view.template-home .sec3 .innovation h4 {
-      padding-bottom: 7px; }
-    .oxo-view.template-home .sec3 .innovation_1 {
-      margin-left: auto;
-      margin-right: 20%; }
-    .oxo-view.template-home .sec3 .innovation_2 {
-      margin-top: -400px;
-      margin-left: 8%;
-      margin-right: auto; }
-    .oxo-view.template-home .sec3 .innovation_3 {
-      margin-top: -90px;
-      margin-left: auto;
-      margin-right: 0; }
-    .oxo-view.template-home .sec3 .innovation_4 {
-      margin-top: -450px;
-      margin-right: auto;
-      margin-left: 380px; }
-    .oxo-view.template-home .sec3 .innovation_5 {
-      margin-top: -250px;
-      margin-right: auto;
-      margin-left: 0; }
-    .oxo-view.template-home .sec3 .innovation_6 {
-      margin-top: -300px;
-      margin-left: auto;
-      margin-right: 15%; }
-    .oxo-view.template-home .sec3 .innovation_7 {
-      margin-top: -50px;
-      margin-right: auto;
-      margin-left: 10%; }
-    .oxo-view.template-home .sec3 .innovation_8 {
-      margin-top: -300px;
-      margin-left: auto;
-      margin-right: 20%; }
-    .oxo-view.template-home .sec3 .innovation:nth-of-type(odd) {
-      /* -- @include break(mobile)-- */
-      /* -- @include break(mobile)-- */ }
-      @media only screen and (max-width: 991px) {
-        .oxo-view.template-home .sec3 .innovation:nth-of-type(odd) {
-          margin-top: 100px !important; } }
-      @media only screen and (max-width: 768px) {
-        .oxo-view.template-home .sec3 .innovation:nth-of-type(odd) {
-          margin-top: 0px !important; } }
+        .oxo-view.template-home .sec3 {
+          position: relative;
+          padding-top: 50px;
+          padding-bottom: 200px;
+          /* -- @include break(mobile)-- */ }
+          @media only screen and (max-width: 768px) {
+            .oxo-view.template-home .sec3 {
+              padding-top: 150px;
+              padding-bottom: 40px; } }
+          .oxo-view.template-home .sec3 h2 {
+            opacity: 0;
+            text-align: center;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                    transform: translateY(-50%);
+            padding-left: 10%;
+            padding-right: 10%;
+            z-index: 1;
+            /* -- @include break(mobile)-- */ }
+            @media only screen and (max-width: 991px) {
+              .oxo-view.template-home .sec3 h2 {
+                position: relative;
+                top: auto;
+                -webkit-transform: translateY(0%);
+                    -ms-transform: translateY(0%);
+                        transform: translateY(0%); } }
+          .oxo-view.template-home .sec3 .mosaique {
+            margin-top: 250px;
+            padding-bottom: 250px;
+            /* -- @include break(mobile)-- */
+            /* -- @include break(mobile)-- */ }
+            @media only screen and (max-width: 991px) {
+              .oxo-view.template-home .sec3 .mosaique {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                    flex-wrap: wrap;
+                padding-bottom: 0px; } }
+            @media only screen and (max-width: 768px) {
+              .oxo-view.template-home .sec3 .mosaique {
+                margin-top: 100px;
+                display: block; } }
+          .oxo-view.template-home .sec3 .innovation {
+            width: 340px;
+            position: relative;
+            z-index: 2;
+            /* -- @include break(mobile)-- */
+            /* -- @include break(mobile)-- */
+            /* -- @include break(mobile)-- */
+            /* -- @include break(mobile)-- */ }
+            @media only screen and (max-width: 1280px) {
+              .oxo-view.template-home .sec3 .innovation {
+                margin-top: 60px !important; } }
+            @media only screen and (max-width: 991px) {
+              .oxo-view.template-home .sec3 .innovation {
+                width: 45%;
+                margin-top: 0px !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                margin-bottom: 60px !important; } }
+            @media only screen and (max-width: 768px) {
+              .oxo-view.template-home .sec3 .innovation {
+                width: 90%;
+                max-width: 340px; } }
+            @media only screen and (max-width: 576px) {
+              .oxo-view.template-home .sec3 .innovation {
+                margin-bottom: 30px !important; } }
+            .oxo-view.template-home .sec3 .innovation img {
+              margin-bottom: 25px;
+              width: 100%;
+              height: auto;
+              /* -- @include break(mobile)-- */ }
+              @media only screen and (max-width: 576px) {
+                .oxo-view.template-home .sec3 .innovation img {
+                  margin-bottom: 10px; } }
+              .oxo-view.template-home .sec3 .innovation img.img_desktop {
+                /* -- @include break(mobile)-- */ }
+                @media only screen and (max-width: 768px) {
+                  .oxo-view.template-home .sec3 .innovation img.img_desktop {
+                    display: none; } }
+              .oxo-view.template-home .sec3 .innovation img.img_mobile {
+                display: none;
+                /* -- @include break(mobile)-- */ }
+                @media only screen and (max-width: 768px) {
+                  .oxo-view.template-home .sec3 .innovation img.img_mobile {
+                    display: block; } }
+            .oxo-view.template-home .sec3 .innovation h4 {
+              padding-bottom: 7px; }
+            .oxo-view.template-home .sec3 .innovation_1 {
+              margin-left: auto;
+              margin-right: 20%; }
+            .oxo-view.template-home .sec3 .innovation_2 {
+              margin-top: -400px;
+              margin-left: 8%;
+              margin-right: auto; }
+            .oxo-view.template-home .sec3 .innovation_3 {
+              margin-top: -90px;
+              margin-left: auto;
+              margin-right: 0; }
+            .oxo-view.template-home .sec3 .innovation_4 {
+              margin-top: -450px;
+              margin-right: auto;
+              margin-left: 380px; }
+            .oxo-view.template-home .sec3 .innovation_5 {
+              margin-top: -250px;
+              margin-right: auto;
+              margin-left: 0; }
+            .oxo-view.template-home .sec3 .innovation_6 {
+              margin-top: -300px;
+              margin-left: auto;
+              margin-right: 15%; }
+            .oxo-view.template-home .sec3 .innovation_7 {
+              margin-top: -50px;
+              margin-right: auto;
+              margin-left: 10%; }
+            .oxo-view.template-home .sec3 .innovation_8 {
+              margin-top: -300px;
+              margin-left: auto;
+              margin-right: 20%; }
+            .oxo-view.template-home .sec3 .innovation:nth-of-type(odd) {
+              /* -- @include break(mobile)-- */
+              /* -- @include break(mobile)-- */ }
+              @media only screen and (max-width: 991px) {
+                .oxo-view.template-home .sec3 .innovation:nth-of-type(odd) {
+                  margin-top: 100px !important; } }
+              @media only screen and (max-width: 768px) {
+                .oxo-view.template-home .sec3 .innovation:nth-of-type(odd) {
+                  margin-top: 0px !important; } }
 
 .oxo-view.template-home .sec4 {
   padding-top: 200px;
