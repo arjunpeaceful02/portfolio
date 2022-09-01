@@ -2047,7 +2047,7 @@ h1 a, h2 a, h3 a, h4 a {
           /* -- @include break(mobile)-- */ }
           @media only screen and (max-width: 768px) {
             .oxo-view.template-home .sec3 {
-              padding-top: 150px;
+              padding-top: 0;
               padding-bottom: 40px; } }
           .oxo-view.template-home .sec3 h2 {
             opacity: 0;
@@ -6003,4 +6003,23 @@ body.filter-is-open {
   height: 90vh;
   position: absolute;
   right: 0;
+}
+
+.responsive-logo {
+  max-width: 150px;
+}
+
+@media only screen and (max-width: 991px) {
+  .presentation-wrapper .presentation-box .flex-main .left-set {
+    width: 100%;
+  }
+  .presentation-wrapper .presentation-box .flex-main .right-set {
+    width: 100%;
+  }
+  .presentation-wrapper .presentation-box .flex-main .right-set img {
+    margin-top: 30px;
+  }
+  .presentation-wrapper .presentation-box {
+    padding: 50px 15px;
+  }
 }
