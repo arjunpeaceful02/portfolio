@@ -1,3 +1,6 @@
+
+
+
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
 
@@ -57,3 +60,4 @@ $('.galleryWrapper .owl-carousel').owlCarousel({
         }
     }
 });
+

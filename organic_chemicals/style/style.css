@@ -30,6 +30,29 @@
   }
 }
 
+.cmnHeader {
+  margin-top: 112px;
+  padding: 100px 0;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cmnHeader::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(255, 255, 0, 0));
+}
+.cmnHeader h2 {
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+}
+
 .sentirMainHeader {
   position: fixed;
   top: 0;
@@ -56,8 +79,8 @@
 .subHeader {
   background-image: linear-gradient(#0b3930, #00826a);
   padding: 5px 0;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 .subHeader .contacts {
   display: flex;
@@ -294,6 +317,11 @@
 @media only screen and (min-width: 991px) {
   .selcomeSection p {
     padding-right: 100px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .selcomeSection p {
+    margin-top: 75px;
   }
 }
 .selcomeSection .cmnBtn {
@@ -762,4 +790,250 @@
   color: #fff;
   font-weight: 300;
   font-size: 12px;
+}
+
+.aboutHeader {
+  background-image: url("../images/about-banner.webp");
+}
+
+.aboutContent {
+  padding: 100px 0;
+}
+.aboutContent p {
+  margin-bottom: 20px;
+}
+.aboutContent img {
+  border-radius: 5px;
+}
+
+.aboutfeatureWrapper {
+  background-image: url("../images/about-feature.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+  position: relative;
+  z-index: 0;
+}
+@media only screen and (max-width: 991px) {
+  .aboutfeatureWrapper {
+    background-attachment: unset;
+  }
+}
+.aboutfeatureWrapper h3 {
+  color: #055f4f;
+}
+.aboutfeatureWrapper .box {
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  position: relative;
+  top: 0;
+  left: 0;
+  transition: all 0.4s ease-in-out;
+}
+.aboutfeatureWrapper .box::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: #055f4f;
+  z-index: -1;
+  transition: all 0.4s ease-in-out;
+}
+.aboutfeatureWrapper .box:hover {
+  top: -5px;
+  left: -5px;
+}
+.aboutfeatureWrapper .box:hover::before {
+  top: 5px;
+  left: 5px;
+}
+.aboutfeatureWrapper .box img {
+  max-height: 80px;
+}
+.aboutfeatureWrapper .box h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 15px;
+}
+.aboutfeatureWrapper .box p {
+  margin-top: 10px;
+}
+
+.productsHeader {
+  background-image: url("../images/products-banner.webp");
+}
+
+.productsContent {
+  padding: 100px 0;
+}
+.productsContent .dotsWrapper {
+  position: relative;
+}
+.productsContent .dotsWrapper .dots {
+  background-image: url("../images/dots.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 160px;
+  height: 62px;
+  position: absolute;
+  z-index: -1;
+  top: 180px;
+  left: -30px;
+}
+@media only screen and (max-width: 768px) {
+  .productsContent .dotsWrapper .dots {
+    left: 0;
+  }
+}
+.productsContent .imgWrapper {
+  position: relative;
+  height: 450px;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.productsContent .imgWrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(5, 95, 79));
+  transition: all 0.4s ease-in-out;
+}
+.productsContent .imgWrapper:hover {
+  transition: all 0.4s ease-in-out;
+}
+.productsContent .imgWrapper:hover .content {
+  top: 0;
+  transform: translateY(0);
+}
+.productsContent .imgWrapper:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(5, 95, 79, 0.45), rgb(5, 95, 79));
+  z-index: 1;
+}
+.productsContent .imgWrapper:hover img {
+  scale: 1.2;
+}
+.productsContent .imgWrapper img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 0.4s ease-in-out;
+}
+.productsContent .imgWrapper .content {
+  position: absolute;
+  top: 100%;
+  transform: translateY(-70px);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  color: #fff;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+  z-index: 3;
+}
+.productsContent .imgWrapper .content h4 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.productsContent .imgWrapper .content p {
+  margin-top: 15px;
+  font-weight: 300;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 12;
+  -webkit-box-orient: vertical;
+}
+
+.galleryHeader {
+  background-image: url("../images/gallery-banner.webp");
+}
+
+.galleryWrapper {
+  padding: 100px 0;
+}
+.galleryWrapper p {
+  margin-top: 15px;
+}
+.galleryWrapper .photos {
+  margin-top: 80px;
+}
+
+.contactHeader {
+  background-image: url("../images/about-img.webp");
+}
+
+.contactWrapper {
+  padding: 100px 0;
+}
+.contactWrapper p {
+  margin-top: 15px;
+  padding-right: 30px;
+}
+.contactWrapper h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.contactWrapper ul li {
+  margin-top: 20px;
+  max-width: 280px;
+  line-height: 1.5;
+  padding-left: 28px;
+}
+.contactWrapper ul li a {
+  color: #212529;
+}
+.contactWrapper ul .address {
+  background-image: url("../images/icon-location.svg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 20px;
+  padding-left: 28px;
+}
+.contactWrapper ul .mail {
+  background-image: url("../images/icon-mail.svg");
+  background-repeat: no-repeat;
+  background-position: left 5px;
+  background-size: 16px;
+  padding-left: 28px;
+}
+.contactWrapper ul .phone {
+  background-image: url("../images/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: left 2px;
+  background-size: 17px;
+  padding-left: 28px;
+}
+.contactWrapper .form-wrapper {
+  margin-top: 25px;
+}
+.contactWrapper .form-wrapper .form-control {
+  padding: 10px 15px;
+  border: 0;
+  border-bottom: 3px solid #168576;
+  background-color: #f7f7f7;
+}
+.contactWrapper button {
+  margin-top: 20px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
