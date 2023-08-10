@@ -7,6 +7,9 @@
   color: #fff;
   display: block;
   transition: all 0.4s ease-in-out;
+  a {
+    color: #fff;
+  }
   &:hover {
     background-color: #000;
   }
@@ -19,7 +22,7 @@
 
 .cmnHeading {
   font-size: 40px;
-  font-weight: 600;
+  font-family: "Poppins-SemiBold";
   max-width: 550px;
   margin-top: 15px;
   @media only screen and (max-width: 768px) {
@@ -109,6 +112,7 @@
         display: flex;
         span {
           font-size: 12px;
+          font-family: "Poppins-Light";
         }
         img {
           max-width: 12px;
@@ -151,13 +155,14 @@
           a {
             height: 100%;
             color: #959595;
-            font-family: "Montserrat", sans-serif;
+            font-family: "montserrat-light";
+            font-weight: lighter;
           }
         }
         .active {
           a {
             color: #00826a;
-            font-weight: 600;
+            font-family: "montserrat-regular";
             background-image: linear-gradient(
               rgba(0, 130, 106, 0.11),
               rgba(0, 130, 106, 0)
@@ -232,6 +237,7 @@
           justify-content: space-between;
           img {
             max-width: 160px;
+            filter: brightness(0) invert(1);
           }
           .burgerClose {
             background-image: url("../images/burger-2.svg");
@@ -254,11 +260,14 @@
               font-family: "Montserrat", sans-serif;
               color: #fff;
               span {
-                font-weight: 700;
+                font-family: "Poppins-Bold";
                 margin-right: 10px;
                 font-size: 16px;
               }
             }
+          }
+          .active {
+            font-family: "Poppins-Bold";
           }
         }
       }
@@ -300,7 +309,7 @@
       height: 100%;
       h1 {
         font-size: 60px;
-        font-weight: 700;
+        font-family: "Poppins-Bold";
         max-width: 445px;
         @media only screen and (max-width: 768px) {
           font-size: 30px;
@@ -459,7 +468,7 @@
     }
     h3 {
       font-size: 18px;
-      font-weight: 700;
+      font-family: "Poppins-Bold";
       margin-top: 15px;
     }
     p {
@@ -565,11 +574,11 @@
         z-index: 3;
         h4 {
           font-size: 18px;
-          font-weight: 600;
+          font-family: "Poppins-SemiBold";
         }
         p {
           margin-top: 15px;
-          font-weight: 300;
+          font-family: "Poppins-Light";
           overflow: hidden;
           text-overflow: ellipsis;
           display: -webkit-box;
@@ -781,13 +790,14 @@
   .logoWrapper {
     img {
       max-width: 130px;
+      filter: brightness(0) invert(1);
     }
   }
   p {
     max-width: 700px;
     margin: 30px auto;
     color: #fff;
-    font-weight: 300;
+    font-family: "Poppins-Light";
   }
   .social {
     li {
@@ -806,7 +816,7 @@
   text-align: center;
   p {
     color: #fff;
-    font-weight: 300;
+    font-family: "Poppins-Light";
     font-size: 12px;
   }
 }
@@ -875,9 +885,9 @@
     img {
       max-height: 80px;
     }
-    h3 {
+    h4 {
       font-size: 18px;
-      font-weight: 700;
+      font-family: "Poppins-Bold";
       margin-top: 15px;
     }
     p {
@@ -975,11 +985,11 @@
       z-index: 3;
       h4 {
         font-size: 18px;
-        font-weight: 600;
+        font-family: "Poppins-SemiBold";
       }
       p {
         margin-top: 15px;
-        font-weight: 300;
+        font-family: "Poppins-Light";
         overflow: hidden;
         text-overflow: ellipsis;
         display: -webkit-box;
@@ -1020,7 +1030,7 @@
   }
   h4 {
     font-size: 20px;
-    font-weight: 600;
+    font-family: "Poppins-SemiBold";
   }
   ul {
     li {

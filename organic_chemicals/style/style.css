@@ -9,6 +9,9 @@
   display: block;
   transition: all 0.4s ease-in-out;
 }
+.cmnBtn a {
+  color: #fff;
+}
 .cmnBtn:hover {
   background-color: #000;
 }
@@ -20,7 +23,7 @@
 
 .cmnHeading {
   font-size: 40px;
-  font-weight: 600;
+  font-family: "Poppins-SemiBold";
   max-width: 550px;
   margin-top: 15px;
 }
@@ -101,6 +104,7 @@
 }
 .subHeader .contacts li a span {
   font-size: 12px;
+  font-family: "Poppins-Light";
 }
 .subHeader .contacts li a img {
   max-width: 12px;
@@ -136,11 +140,12 @@
 .sentirNavbar .navWrapper .menuWrapper ul li a {
   height: 100%;
   color: #959595;
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat-light";
+  font-weight: lighter;
 }
 .sentirNavbar .navWrapper .menuWrapper ul .active a {
   color: #00826a;
-  font-weight: 600;
+  font-family: "montserrat-regular";
   background-image: linear-gradient(rgba(0, 130, 106, 0.11), rgba(0, 130, 106, 0));
   padding: 28px 15px;
   position: relative;
@@ -209,6 +214,7 @@
 }
 .sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu .head img {
   max-width: 160px;
+  filter: brightness(0) invert(1);
 }
 .sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu .head .burgerClose {
   background-image: url("../images/burger-2.svg");
@@ -233,9 +239,12 @@
   color: #fff;
 }
 .sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu ul li a span {
-  font-weight: 700;
+  font-family: "Poppins-Bold";
   margin-right: 10px;
   font-size: 16px;
+}
+.sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu ul .active {
+  font-family: "Poppins-Bold";
 }
 .sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu.show {
   transform: translate(0);
@@ -277,7 +286,7 @@
 }
 .sentirBanner .carousel-item .bannerContent h1 {
   font-size: 60px;
-  font-weight: 700;
+  font-family: "Poppins-Bold";
   max-width: 445px;
 }
 @media only screen and (max-width: 768px) {
@@ -442,7 +451,7 @@
 }
 .whatWeDo .box h3 {
   font-size: 18px;
-  font-weight: 700;
+  font-family: "Poppins-Bold";
   margin-top: 15px;
 }
 .whatWeDo .box p {
@@ -550,11 +559,11 @@
 }
 .productsWrapper .owl-carousel .imgWrapper .content h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-family: "Poppins-SemiBold";
 }
 .productsWrapper .owl-carousel .imgWrapper .content p {
   margin-top: 15px;
-  font-weight: 300;
+  font-family: "Poppins-Light";
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -766,12 +775,13 @@
 }
 .sentinFooter .logoWrapper img {
   max-width: 130px;
+  filter: brightness(0) invert(1);
 }
 .sentinFooter p {
   max-width: 700px;
   margin: 30px auto;
   color: #fff;
-  font-weight: 300;
+  font-family: "Poppins-Light";
 }
 .sentinFooter .social li {
   display: inline-block;
@@ -788,7 +798,7 @@
 }
 .subFooter p {
   color: #fff;
-  font-weight: 300;
+  font-family: "Poppins-Light";
   font-size: 12px;
 }
 
@@ -858,9 +868,9 @@
 .aboutfeatureWrapper .box img {
   max-height: 80px;
 }
-.aboutfeatureWrapper .box h3 {
+.aboutfeatureWrapper .box h4 {
   font-size: 18px;
-  font-weight: 700;
+  font-family: "Poppins-Bold";
   margin-top: 15px;
 }
 .aboutfeatureWrapper .box p {
@@ -953,11 +963,11 @@
 }
 .productsContent .imgWrapper .content h4 {
   font-size: 18px;
-  font-weight: 600;
+  font-family: "Poppins-SemiBold";
 }
 .productsContent .imgWrapper .content p {
   margin-top: 15px;
-  font-weight: 300;
+  font-family: "Poppins-Light";
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -992,7 +1002,7 @@
 }
 .contactWrapper h4 {
   font-size: 20px;
-  font-weight: 600;
+  font-family: "Poppins-SemiBold";
 }
 .contactWrapper ul li {
   margin-top: 20px;
