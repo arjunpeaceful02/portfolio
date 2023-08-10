@@ -7,6 +7,9 @@
   color: #fff;
   display: block;
   transition: all 0.4s ease-in-out;
+  a {
+    color: #fff;
+  }
   &:hover {
     background-color: #000;
   }
