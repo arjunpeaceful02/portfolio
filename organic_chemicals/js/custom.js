@@ -27,11 +27,11 @@ $('.productsWrapper .owl-carousel').owlCarousel({
     responsiveClass:true,
     responsive:{
         0:{
-            items:2.3,
+            items:1.3,
             nav:true
         },
         600:{
-            items:2.3,
+            items:1.3,
             nav:true
         },
         1000:{
@@ -47,11 +47,11 @@ $('.galleryWrapper .owl-carousel').owlCarousel({
     responsiveClass:true,
     responsive:{
         0:{
-            items:2.3,
+            items:1.3,
             nav:true
         },
         600:{
-            items:2.3,
+            items:1.3,
             nav:true
         },
         1000:{

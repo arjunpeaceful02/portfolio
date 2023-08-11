@@ -61,7 +61,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
   transition: all 0.4s ease-in-out;
 }
 
@@ -235,7 +235,7 @@
   margin-top: 50px;
 }
 .sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu ul li a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "montserrat-light";
   color: #fff;
 }
 .sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu ul li a span {
@@ -243,8 +243,8 @@
   margin-right: 10px;
   font-size: 16px;
 }
-.sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu ul .active {
-  font-family: "Poppins-Bold";
+.sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu ul .active a {
+  font-family: "montserrat-regular";
 }
 .sentirNavbar .navWrapper .menuWrapperResponsive .mobileMenu.show {
   transform: translate(0);
@@ -573,6 +573,11 @@
 .productsWrapper .btnWrapper button {
   margin: 50px auto 0;
 }
+@media only screen and (max-width: 768px) {
+  .productsWrapper .btnWrapper button {
+    margin: 25px 0 0 0;
+  }
+}
 
 .owl-carousel .owl-nav {
   position: absolute;
@@ -641,6 +646,7 @@
 @media only screen and (max-width: 991px) {
   .galleryWrapper::before {
     background-attachment: unset;
+    bottom: 86px;
   }
 }
 .galleryWrapper .cmnBtn {
@@ -687,6 +693,11 @@
 
 .clientsWrapper {
   padding: 100px 0;
+}
+@media only screen and (max-width: 991px) {
+  .clientsWrapper {
+    padding-top: 0;
+  }
 }
 @media only screen and (min-width: 768px) {
   .clientsWrapper .leftWrapper {
@@ -902,6 +913,7 @@
 @media only screen and (max-width: 768px) {
   .productsContent .dotsWrapper .dots {
     left: 0;
+    display: none;
   }
 }
 .productsContent .imgWrapper {
@@ -959,7 +971,7 @@
   color: #fff;
   overflow: hidden;
   transition: all 0.4s ease-in-out;
-  z-index: 3;
+  z-index: 2;
 }
 .productsContent .imgWrapper .content h4 {
   font-size: 18px;
