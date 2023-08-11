@@ -62,7 +62,7 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
+  z-index: 3;
   transition: all 0.4s ease-in-out;
 }
 .sentirMainHeader.scrolled {
@@ -257,7 +257,7 @@
           li {
             margin-top: 50px;
             a {
-              font-family: "Montserrat", sans-serif;
+              font-family: "montserrat-light";
               color: #fff;
               span {
                 font-family: "Poppins-Bold";
@@ -267,7 +267,10 @@
             }
           }
           .active {
-            font-family: "Poppins-Bold";
+            a {
+              font-family: "montserrat-regular";
+            }
+            
           }
         }
       }
@@ -591,6 +594,9 @@
   .btnWrapper {
     button {
       margin: 50px auto 0;
+      @media only screen and (max-width: 768px) {
+        margin: 25px 0 0 0;
+      }
     }
   }
 }
@@ -644,7 +650,6 @@
 
 .galleryWrapper {
   padding: 100px 0;
-
   position: relative;
   &::before {
     content: "";
@@ -660,6 +665,7 @@
     background-size: cover;
     @media only screen and (max-width: 991px) {
       background-attachment: unset;
+      bottom: 86px;
     }
   }
   .cmnBtn {
@@ -704,6 +710,9 @@
 
 .clientsWrapper {
   padding: 100px 0;
+  @media only screen and (max-width: 991px) {
+    padding-top: 0;
+  }
   .leftWrapper {
     @media only screen and (min-width: 768px) {
       padding-right: 100px;
@@ -919,6 +928,7 @@
       left: -30px;
       @media only screen and (max-width: 768px) {
         left: 0;
+        display: none;
       }
     }
   }
@@ -982,7 +992,7 @@
       color: #fff;
       overflow: hidden;
       transition: all 0.4s ease-in-out;
-      z-index: 3;
+      z-index: 2;
       h4 {
         font-size: 18px;
         font-family: "Poppins-SemiBold";
