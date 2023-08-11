@@ -33,6 +33,21 @@
   }
 }
 
+.whatsappChat {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 5;
+}
+.whatsappChat:hover img {
+  box-shadow: 0 3px 20px 0px rgba(22, 133, 118, 0.86);
+}
+.whatsappChat img {
+  max-width: 50px;
+  border-radius: 50%;
+  transition: all 0.4s ease-in-out;
+}
+
 .cmnHeader {
   margin-top: 112px;
   padding: 100px 0;
@@ -1041,6 +1056,13 @@
 }
 .contactWrapper ul .phone {
   background-image: url("../images/icon-phone.svg");
+  background-repeat: no-repeat;
+  background-position: left 2px;
+  background-size: 17px;
+  padding-left: 28px;
+}
+.contactWrapper ul .whatsapp {
+  background-image: url("../images/icon-whatsapp.svg");
   background-repeat: no-repeat;
   background-position: left 2px;
   background-size: 17px;
