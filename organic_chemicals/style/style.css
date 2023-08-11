@@ -154,9 +154,8 @@
 }
 .sentirNavbar .navWrapper .menuWrapper ul li a {
   height: 100%;
-  color: #959595;
+  color: #000;
   font-family: "montserrat-light";
-  font-weight: lighter;
 }
 .sentirNavbar .navWrapper .menuWrapper ul .active a {
   color: #00826a;
